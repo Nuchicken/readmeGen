@@ -50,8 +50,7 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   const { badge, link } = renderLicenseBadge(data.license);
 
-  return `
-  # ${data.repoName} ${badge}${link}
+  return `# ${data.repoName} ${badge}${link}
 
   ## Description 
   ${data.description}
@@ -82,10 +81,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have questions, you may reach out to me at [${data.email}](${data.email})\n Please feel free to checkout other projects on my [GitHub](${data.gitUserName})
   `;
-
-
 }
 
 export default generateMarkdown;
 
-//  title, entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
