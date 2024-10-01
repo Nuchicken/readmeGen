@@ -1,0 +1,15 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "Welcome to **readmeGen**! This command line tool helps you create a professional README file for your projects with ease. It features an interactive GUI, markdown support, and license integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^11.1.0"
+  }
+}
