@@ -79,7 +79,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  If you have questions, you may reach out to me at [${data.email}](${data.email})\n Please feel free to checkout other projects on my [GitHub](${data.gitUserName})
+  If you have questions, you may reach out to me via email [${data.email}](${data.email})\n Please feel free to checkout other projects on my GitHub : [https://github.com/${data.gitUserName}](https://github.com/${data.gitUserName})
   `;
 }
 
